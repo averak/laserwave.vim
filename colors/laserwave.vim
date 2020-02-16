@@ -16,162 +16,136 @@ let g:colors_name = "laserwave"
 
 
 " ===== Colors =================================================================
+" ============
+"  Primary
+" ============
+hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+hi String ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+hi Define ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 
-" Let's store all the colors in a dictionary.
-let s:colors = {}
+" ============
+"  Primary Valiant
+" ============
+hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
 
-" Base colors.
-let s:colors.base0 = { 'gui': '#0c1014', 'cterm': 232 }
-let s:colors.base1 = { 'gui': '#11151c', 'cterm': 233 }
-let s:colors.base2 = { 'gui': '#091f2e', 'cterm': 17  }
-let s:colors.base3 = { 'gui': '#0a3749', 'cterm': 18  }
-let s:colors.base4 = { 'gui': '#1e6479', 'cterm': 31  }
-let s:colors.base5 = { 'gui': '#599cab', 'cterm': 81  }
-let s:colors.base6 = { 'gui': '#99d1ce', 'cterm': 122 }
-let s:colors.base7 = { 'gui': '#d3ebe9', 'cterm': 194 }
+" ============
+"  Secondary
+" ============
+hi PreProc ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
+hi Label ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
+hi Conditional ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
+hi Statement ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
+hi Operator ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
+hi Question ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
 
-" Other colors.
-let s:colors.red     = { 'gui': '#c23127', 'cterm': 124 }
-let s:colors.orange  = { 'gui': '#d26937', 'cterm': 166 }
-let s:colors.yellow  = { 'gui': '#edb443', 'cterm': 214 }
-let s:colors.magenta = { 'gui': '#888ca6', 'cterm': 67  }
-let s:colors.violet  = { 'gui': '#4e5166', 'cterm': 60  }
-let s:colors.blue    = { 'gui': '#195466', 'cterm': 24  }
-let s:colors.cyan    = { 'gui': '#33859E', 'cterm': 44  }
-let s:colors.green   = { 'gui': '#2aa889', 'cterm': 78  }
+" ============
+"  Special
+" ============
+hi Special ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
+hi SpecialChar ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
+hi MatchParen ctermfg=204 ctermbg=NONE cterm=underline guifg=#ff4081 guibg=NONE gui=underline
+hi Todo ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
+hi Search ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
+hi IncSearch ctermfg=204 ctermbg=237 cterm=NONE guifg=#ff4081 guibg=#383838 gui=NONE
 
-" Neovim :terminal colors.
-let g:terminal_color_0  = get(s:colors.base0, 'gui')
-let g:terminal_color_8  = g:terminal_color_0
-let g:terminal_color_1  = get(s:colors.red, 'gui')
-let g:terminal_color_9  = g:terminal_color_1
-let g:terminal_color_2  = get(s:colors.green, 'gui')
-let g:terminal_color_10 = g:terminal_color_2
-let g:terminal_color_3  = get(s:colors.yellow, 'gui')
-let g:terminal_color_11 = g:terminal_color_3
-let g:terminal_color_4  = get(s:colors.blue, 'gui')
-let g:terminal_color_12 = g:terminal_color_4
-let g:terminal_color_5  = get(s:colors.violet, 'gui')
-let g:terminal_color_13 = g:terminal_color_5
-let g:terminal_color_6  = get(s:colors.cyan, 'gui')
-let g:terminal_color_14 = g:terminal_color_6
-let g:terminal_color_7  = get(s:colors.base6, 'gui')
-let g:terminal_color_15 = g:terminal_color_7
+" ============
+"  Error
+" ============
+hi ErrorMsg ctermfg=0 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=NONE
+hi WarningMsg ctermfg=0 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=NONE
 
+" =================
+" High-emphasis
+" =================
+hi Boolean ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
+hi Float ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
+hi Number ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
+hi Constant ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
+hi Structure ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
 
-" Native highlighting ==========================================================
+" =================
+" Medium-emphasis
+" =================
+hi Identifier ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NONE
+hi Function ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NONE
+hi Delimiter ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NONE
 
-let s:background = 'base0'
-let s:linenr_background = 'base1'
+" =================
+"  Background
+" =================
+hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
+hi NonText ctermfg=236 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NONE
 
-" Everything starts here.
-call s:Col('Normal', 'base6', s:background)
+" ============
+"  Diff
+" ============
+hi DiffAdd ctermfg=107 ctermbg=235 cterm=NONE guifg=#7CB342 guibg=#2a2a2a gui=NONE
+hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#FDD835 guibg=#313131 gui=NONE
+hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
+hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
 
-" Line, cursor and so on.
-call s:Col('Cursor', 'base1', 'base6')
-call s:Col('CursorLine', '', 'base1')
-call s:Col('CursorColumn', '', 'base1')
+" =================
+"  Line
+" =================
+hi LineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#313131 gui=NONE
+hi StatusLine ctermfg=245 ctermbg=235 cterm=bold guifg=#8a8a8a guibg=#2a2a2a gui=bold
+hi StatusLineNC ctermfg=245 ctermbg=235 cterm=NONE guifg=#8a8a8a guibg=#2a2a2a gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
+hi CursorLineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 
-" Sign column, line numbers.
-call s:Col('LineNr', 'blue', s:linenr_background)
-call s:Col('CursorLineNr', 'base5', s:linenr_background)
-call s:Col('SignColumn', '', s:linenr_background)
-call s:Col('ColorColumn', '', s:linenr_background)
+" =================
+"  Select
+" =================
+hi Visual ctermfg=NONE ctermbg=239 cterm=NONE guifg=NONE guibg=#4e4e4e gui=NONE
+hi SignColumn ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi Cursor ctermfg=15 ctermbg=249 cterm=NONE guifg=#FFFFFF guibg=#b2b2b2 gui=NONE
 
-" Visual selection.
-call s:Col('Visual', '', 'base3')
+" ============
+"  Underline
+" ============
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE guibg=NONE
+hi clear SpellCap " & ALE
+hi SpellBad cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE guibg=NONE
+hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 
-" Easy-to-guess code elements.
-call s:Col('Comment', 'blue')
-call s:Col('String', 'green')
-call s:Col('Number', 'orange')
-call s:Col('Statement', 'base5')
-call s:Col('Special', 'orange')
-call s:Col('Identifier', 'base5')
+" =================
+"  Disabled
+" =================
+hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
+hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a gui=NONE
 
-" Constants, Ruby symbols.
-call s:Col('Constant', 'magenta')
+" =================
+"  Folded and Column
+" =================
+hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#313131 gui=NONE
+hi FoldColumn ctermfg=141 ctermbg=237 cterm=NONE guifg=#bb86fc guibg=#383838 gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313131 gui=NONE
+hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#313131 guibg=#313131 gui=NONE
 
-" Some HTML tags (<title>, some <h*>s)
-call s:Col('Title', 'orange')
+" =================
+"  Tab
+" =================
+hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
+hi TabLine ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi TabLineFill ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#313131 gui=NONE
+hi TabLineSel ctermfg=0 ctermbg=135 cterm=NONE guifg=#000000 guibg=#b26eff gui=NONE
 
-" <a> tags.
-call s:Col('Underlined', 'yellow')
-call s:Attr('Underlined', 'underline')
+" =================
+"  Menu
+" =================
+hi Pmenu ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi PmenuSel ctermfg=135 ctermbg=236 cterm=NONE guifg=#b26eff guibg=#4e4e4e gui=NONE
 
-" Types, HTML attributes, Ruby constants (and class names).
-call s:Col('Type', 'orange')
+" =================
+"  Link
+" =================
+hi link gitcommitSummary String
 
-" Stuff like 'require' in Ruby.
-call s:Col('PreProc', 'red')
-
-" Tildes on the bottom of the page.
-call s:Col('NonText', 'blue')
-
-" Concealed stuff.
-call s:Col('Conceal', 'cyan', s:background)
-
-" TODO and similar tags.
-call s:Col('Todo', 'magenta', s:background)
-
-" The column separating vertical splits.
-call s:Col('VertSplit', 'base2', s:linenr_background)
-call s:Col('StatusLineNC', 'blue', 'base2')
-
-" Matching parenthesis.
-call s:Col('MatchParen', 'base6', 'orange')
-
-" Special keys, e.g. some of the chars in 'listchars'. See ':h listchars'.
-call s:Col('SpecialKey', 'base3')
-
-" Folds.
-call s:Col('Folded', 'base6', 'blue')
-call s:Col('FoldColumn', 'base5', 'base3')
-
-" Searching.
-call s:Col('Search', 'base2', 'yellow')
-call s:Attr('IncSearch', 'reverse')
-
-" Popup menu.
-call s:Col('Pmenu', 'base6', 'base2')
-call s:Col('PmenuSel', 'base7', 'blue')
-call s:Col('PmenuSbar', '', 'base2')
-call s:Col('PmenuThumb', '', 'blue')
-
-" Command line stuff.
-call s:Col('ErrorMsg', 'red', 'base1')
-call s:Col('Error', 'red', 'base1')
-call s:Col('ModeMsg', 'blue')
-call s:Col('WarningMsg', 'red')
-
-" Wild menu.
-" StatusLine determines the color of the non-active entries in the wild menu.
-call s:Col('StatusLine', 'base5', 'base2')
-call s:Col('WildMenu', 'base7', 'cyan')
-
-" The 'Hit ENTER to continue prompt'.
-call s:Col('Question', 'green')
-
-" Tab line.
-call s:Col('TabLineSel', 'base7', 'blue')  " the selected tab
-call s:Col('TabLine', 'base6', 'base2')     " the non-selected tabs
-call s:Col('TabLineFill', 'base0', 'base0') " the rest of the tab line
-
-" Spelling.
-call s:Col('SpellBad', 'base7', 'red')
-call s:Col('SpellCap', 'base7', 'blue')
-call s:Col('SpellLocal', 'yellow')
-call s:Col('SpellRare', 'base7', 'violet')
-
-" Diffing.
-call s:Col('DiffAdd', 'base7', 'green')
-call s:Col('DiffChange', 'base7', 'blue')
-call s:Col('DiffDelete', 'base7', 'red')
-call s:Col('DiffText', 'base7', 'cyan')
-call s:Col('DiffAdded', 'green')
-call s:Col('DiffChanged', 'blue')
-call s:Col('DiffRemoved', 'red')
-call s:Col('DiffSubname', 'blue')
-
-" Directories (e.g. netrw).
-call s:Col('Directory', 'cyan')
