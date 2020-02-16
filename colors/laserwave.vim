@@ -61,11 +61,11 @@ hi WarningMsg ctermfg=0 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=N
 " =================
 " High-emphasis
 " =================
-hi Boolean ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
-hi Float ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
-hi Number ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
-hi Constant ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
-hi Structure ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
+hi Boolean ctermfg=254 ctermbg=NONE cterm=NONE guifg=#27202f guibg=NONE gui=NONE
+hi Float ctermfg=254 ctermbg=NONE cterm=NONE guifg=#27202f guibg=NONE gui=NONE
+hi Number ctermfg=254 ctermbg=NONE cterm=NONE guifg=#27202f guibg=NONE gui=NONE
+hi Constant ctermfg=254 ctermbg=NONE cterm=NONE guifg=#27202f guibg=NONE gui=NONE
+hi Structure ctermfg=254 ctermbg=NONE cterm=NONE guifg=#27202f guibg=NONE gui=NONE
 
 " =================
 " Medium-emphasis
@@ -77,8 +77,8 @@ hi Delimiter ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NO
 " =================
 "  Background
 " =================
-hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
-hi NonText ctermfg=236 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NONE
+hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#27202f guibg=#27202f gui=NONE
+hi NonText ctermfg=236 ctermbg=235 cterm=NONE guifg=#313131 guibg=#27202f gui=NONE
 
 " ============
 "  Diff
@@ -91,13 +91,13 @@ hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui
 " =================
 "  Line
 " =================
-hi LineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi LineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#27202f guibg=#383838 gui=NONE
 hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#313131 gui=NONE
 hi StatusLine ctermfg=245 ctermbg=235 cterm=bold guifg=#8a8a8a guibg=#2a2a2a gui=bold
 hi StatusLineNC ctermfg=245 ctermbg=235 cterm=NONE guifg=#8a8a8a guibg=#2a2a2a gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi CursorLineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
-hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi CursorLineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#27202f guibg=#383838 gui=NONE
+hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#27202f guibg=#383838 gui=NONE
 
 " =================
 "  Select
@@ -141,7 +141,7 @@ hi TabLineSel ctermfg=0 ctermbg=135 cterm=NONE guifg=#000000 guibg=#b26eff gui=N
 " =================
 "  Menu
 " =================
-hi Pmenu ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi Pmenu ctermfg=254 ctermbg=235 cterm=NONE guifg=#27202f guibg=#383838 gui=NONE
 hi PmenuSel ctermfg=135 ctermbg=236 cterm=NONE guifg=#b26eff guibg=#4e4e4e gui=NONE
 
 " =================
