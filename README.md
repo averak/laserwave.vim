@@ -1,4 +1,4 @@
-LaserWave-vim
+laserwave.vim
 =============
 
 An clean 80's synthwave / outrun inspired theme for Vim.
@@ -10,4 +10,4 @@ An clean 80's synthwave / outrun inspired theme for Vim.
 
 
 ## Contributing
-Bug reports and pull requests are welcome on GitHub at [https://github.com/AjxLab/LaserWave-vim](https://github.com/AjxLab/LaserWave-vim).
+Bug reports and pull requests are welcome on GitHub at [https://github.com/AjxLab/laserwave.vim](https://github.com/AjxLab/laserwave.vim).
