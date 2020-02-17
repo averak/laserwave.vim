@@ -14,6 +14,7 @@ call dein#add('AjxLab/laserwave.vim'')
 Plug 'AjxLab/laserwave.vim'
 ```
 
+
 ## References
 [Jaredk3nt/laserwave](https://github.com/Jaredk3nt/laserwave)
 
