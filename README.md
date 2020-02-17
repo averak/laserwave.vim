@@ -4,6 +4,15 @@ laserwave.vim
 An clean 80's synthwave / outrun inspired theme for Vim.
 
 
+## Installation
+### Use dein.vim
+```vim
+call dein#add('AjxLab/laserwave.vim'')
+```
+### Use vim-plug
+```vim
+Plug 'AjxLab/laserwave.vim'
+```
 
 ## References
 [Jaredk3nt/laserwave](https://github.com/Jaredk3nt/laserwave)
