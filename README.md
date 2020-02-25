@@ -1,6 +1,8 @@
 laserwave.vim
 =============
 
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 An clean 80's synthwave / outrun inspired theme for Vim.
 
 
