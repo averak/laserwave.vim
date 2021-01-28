@@ -4,6 +4,8 @@
 
 An clean 80's synthwave / outrun inspired theme for Vim.
 
+![](./media/sample.png)
+
 ## Usage
 
 1. Install this plugin
