@@ -24,7 +24,7 @@ hi Normal ctermbg=8 ctermfg=252
 hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE
 hi CursorColumn cterm=NONE ctermbg=235 ctermfg=NONE
 hi CursorLine cterm=NONE ctermbg=235 ctermfg=NONE
-hi Comment ctermfg=242
+hi Comment ctermfg=60
 hi Conceal ctermbg=8 ctermfg=242
 hi Constant ctermfg=140
 hi Cursor ctermbg=252 ctermfg=8
@@ -43,46 +43,42 @@ hi NonText ctermfg=236
 hi Whitespace ctermfg=236
 hi Folded ctermbg=235 ctermfg=245
 hi FoldColumn ctermbg=235 ctermfg=239
-hi Function ctermfg=110
-hi Identifier cterm=NONE ctermfg=109
+hi Function ctermfg=153
+hi Identifier cterm=NONE ctermfg=185
 hi Ignore ctermbg=NONE ctermfg=NONE
-hi Include ctermfg=110
+hi Include ctermfg=38
 hi IncSearch cterm=reverse ctermfg=NONE
 hi LineNr ctermbg=235 ctermfg=239
 hi MatchParen ctermbg=237 ctermfg=255
 hi ModeMsg ctermfg=242
 hi MoreMsg ctermfg=150
-hi Operator ctermfg=110
+hi Operator ctermfg=79
 hi Pmenu ctermbg=236 ctermfg=251
 hi PmenuSbar ctermbg=236 ctermfg=NONE
-hi PmenuSel ctermbg=240 ctermfg=255
+hi PmenuSel ctermbg=60 ctermfg=255
 hi PmenuThumb ctermbg=251 ctermfg=NONE
-hi PreProc ctermfg=150
+hi PreProc ctermfg=49
 hi Question ctermfg=150
 hi QuickFixLine ctermbg=236 ctermfg=252
-hi Search ctermbg=216 ctermfg=8
+hi Search ctermbg=24 ctermfg=252
 hi SignColumn ctermbg=235 ctermfg=239
 hi Special ctermfg=150
 hi SpecialKey ctermfg=240
 hi SpellBad ctermbg=95 ctermfg=252
-hi SpellCap ctermbg=24 ctermfg=252
+hi SpellCap ctermbg=239 ctermfg=252
 hi SpellLocal ctermbg=23 ctermfg=252
 hi SpellRare ctermbg=97 ctermfg=252
-hi Statement ctermfg=110
-hi StatusLine cterm=reverse ctermbg=8 ctermfg=245 term=reverse
-hi StatusLineTerm cterm=reverse ctermbg=8 ctermfg=245 term=reverse
-hi StatusLineNC cterm=reverse ctermbg=238 ctermfg=233
-hi StatusLineTermNC cterm=reverse ctermbg=238 ctermfg=233
-hi StorageClass ctermfg=110
-hi String ctermfg=109
-hi Structure ctermfg=110
+hi Statement ctermfg=134
+hi StorageClass ctermfg=38
+hi String ctermfg=110
+hi Structure ctermfg=38
 hi TabLine cterm=NONE ctermbg=233 ctermfg=238
 hi TabLineFill cterm=reverse ctermbg=238 ctermfg=233
 hi TabLineSel cterm=NONE ctermbg=8 ctermfg=252
 hi TermCursorNC ctermbg=242 ctermfg=8
-hi Title ctermfg=216
+hi Title ctermfg=206
 hi Todo ctermbg=8 ctermfg=150
-hi Type ctermfg=110
+hi Type ctermfg=134
 hi Underlined cterm=underline ctermfg=110 term=underline
 hi VertSplit cterm=NONE ctermbg=233 ctermfg=233
 hi Visual ctermbg=236 ctermfg=NONE
@@ -91,7 +87,7 @@ hi WildMenu ctermbg=255 ctermfg=8
 hi diffAdded ctermfg=150
 hi diffRemoved ctermfg=203
 hi ALEErrorSign ctermbg=235 ctermfg=203
-hi ALEWarningSign ctermbg=235 ctermfg=216
+hi ALEWarningSign ctermbg=235 ctermfg=222
 hi ALEVirtualTextError ctermfg=203
 hi ALEVirtualTextWarning ctermfg=216
 hi CtrlPMode1 ctermbg=236 ctermfg=242
@@ -112,7 +108,6 @@ hi SyntasticStyleErrorSign ctermbg=235 ctermfg=203
 hi SyntasticStyleWarningSign ctermbg=235 ctermfg=216
 hi SyntasticWarningSign ctermbg=235 ctermfg=216
 hi ZenSpace ctermbg=203
-hi icebergALAccentRed ctermfg=203
 
 if has('nvim')
   let g:terminal_color_0 = '#1e2132'
