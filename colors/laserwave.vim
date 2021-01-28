@@ -43,7 +43,7 @@ hi NonText ctermfg=236
 hi Whitespace ctermfg=236
 hi Folded ctermbg=235 ctermfg=245
 hi FoldColumn ctermbg=235 ctermfg=239
-hi Function ctermfg=153
+hi Function ctermfg=108
 hi Identifier cterm=NONE ctermfg=185
 hi Ignore ctermbg=NONE ctermfg=NONE
 hi Include ctermfg=38
@@ -57,7 +57,7 @@ hi Pmenu ctermbg=236 ctermfg=251
 hi PmenuSbar ctermbg=236 ctermfg=NONE
 hi PmenuSel ctermbg=60 ctermfg=255
 hi PmenuThumb ctermbg=251 ctermfg=NONE
-hi PreProc ctermfg=49
+hi PreProc ctermfg=78
 hi Question ctermfg=150
 hi QuickFixLine ctermbg=236 ctermfg=252
 hi Search ctermbg=24 ctermfg=252
