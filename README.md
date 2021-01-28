@@ -4,17 +4,17 @@
 
 An clean 80's synthwave / outrun inspired theme for Vim.
 
-## Installation
+## Usage
 
-### Use dein.vim
+1. Install this plugin
+2. run `:colorscheme laserwave`
+
+Put the following code in your vimrc.
 
 ```vim
+# if you use dein
 call dein#add('averak/laserwave.vim'')
-```
-
-### Use vim-plug
-
-```vim
+# use Vim-Plug
 Plug 'averak/laserwave.vim'
 ```
 
