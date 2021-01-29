@@ -65,7 +65,7 @@ hi SignColumn ctermbg=235 ctermfg=239
 hi Special ctermfg=150
 hi SpecialKey ctermfg=240
 hi SpellBad ctermbg=95 ctermfg=252
-hi SpellCap ctermbg=239 ctermfg=252
+hi SpellCap ctermbg=239 ctermfg=NONE
 hi SpellLocal ctermbg=23 ctermfg=252
 hi SpellRare ctermbg=97 ctermfg=252
 hi Statement ctermfg=134
@@ -86,8 +86,8 @@ hi VisualNOS ctermbg=236 ctermfg=NONE
 hi WildMenu ctermbg=255 ctermfg=8
 hi diffAdded ctermfg=150
 hi diffRemoved ctermfg=203
-hi ALEErrorSign ctermbg=235 ctermfg=203
-hi ALEWarningSign ctermbg=235 ctermfg=222
+hi ALEErrorSign ctermbg=NONE ctermfg=203
+hi ALEWarningSign ctermbg=NONE ctermfg=222
 hi ALEVirtualTextError ctermfg=203
 hi ALEVirtualTextWarning ctermfg=216
 hi CtrlPMode1 ctermbg=236 ctermfg=242
@@ -105,8 +105,8 @@ hi Sneak ctermbg=140 ctermfg=8
 hi SneakScope ctermbg=236 ctermfg=242
 hi SyntasticErrorSign ctermbg=235 ctermfg=203
 hi SyntasticStyleErrorSign ctermbg=235 ctermfg=203
-hi SyntasticStyleWarningSign ctermbg=235 ctermfg=216
-hi SyntasticWarningSign ctermbg=235 ctermfg=216
+hi SyntasticStyleWarningSign ctermbg=235 ctermfg=222
+hi SyntasticWarningSign ctermbg=235 ctermfg=222
 hi ZenSpace ctermbg=203
 
 if has('nvim')
