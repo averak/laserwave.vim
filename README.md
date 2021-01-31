@@ -14,9 +14,9 @@ An clean 80's synthwave / outrun inspired theme for Vim.
 Put the following code in your vimrc.
 
 ```vim
-# if you use dein
-call dein#add('averak/laserwave.vim'')
-# use Vim-Plug
+" use dein.vim
+call dein#add('averak/laserwave.vim')
+" use Vim-Plug
 Plug 'averak/laserwave.vim'
 ```
 
