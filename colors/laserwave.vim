@@ -20,16 +20,16 @@ endif
 
 let g:colors_name = 'lacerwave'
 
-hi Normal ctermbg=NONE ctermfg=252
+hi Normal ctermbg=NONE ctermfg=NONE
 hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE
 hi CursorColumn cterm=NONE ctermbg=235 ctermfg=NONE
 hi CursorLine cterm=NONE ctermbg=235 ctermfg=NONE
-hi Comment ctermfg=60
+hi Comment ctermfg=7
 hi Conceal ctermbg=NONE ctermfg=242
 hi Constant ctermfg=140
-hi Cursor ctermbg=252 ctermfg=8
+hi Cursor ctermbg=NONE ctermfg=NONE
 hi CursorLineNr cterm=NONE ctermbg=237 ctermfg=253
-hi Delimiter ctermfg=252
+hi Delimiter ctermfg=NONE
 hi DiffAdd ctermbg=29 ctermfg=158
 hi DiffChange ctermbg=23 ctermfg=159
 hi DiffDelete cterm=NONE ctermbg=95 ctermfg=224
@@ -59,8 +59,8 @@ hi PmenuSel ctermbg=60 ctermfg=255
 hi PmenuThumb ctermbg=251 ctermfg=NONE
 hi PreProc ctermfg=78
 hi Question ctermfg=150
-hi QuickFixLine ctermbg=236 ctermfg=252
-hi Search ctermbg=24 ctermfg=252
+hi QuickFixLine ctermbg=236 ctermfg=NONE
+hi Search ctermbg=24 ctermfg=NONE
 hi SignColumn ctermbg=235 ctermfg=239
 hi Special ctermfg=150
 hi SpecialKey ctermfg=240
@@ -74,8 +74,8 @@ hi String ctermfg=110
 hi Structure ctermfg=38
 hi TabLine cterm=NONE ctermbg=233 ctermfg=238
 hi TabLineFill cterm=reverse ctermbg=238 ctermfg=233
-hi TabLineSel cterm=NONE ctermbg=NONE ctermfg=252
-hi TermCursorNC ctermbg=242 ctermfg=8
+hi TabLineSel cterm=NONE ctermbg=NONE ctermfg=NONE
+hi TermCursorNC ctermbg=242 ctermfg=NONE
 hi Title ctermfg=206
 hi Todo ctermbg=NONE ctermfg=150
 hi Type ctermfg=134
@@ -83,7 +83,7 @@ hi Underlined cterm=underline ctermfg=110 term=underline
 hi VertSplit cterm=NONE ctermbg=233 ctermfg=233
 hi Visual ctermbg=236 ctermfg=NONE
 hi VisualNOS ctermbg=236 ctermfg=NONE
-hi WildMenu ctermbg=255 ctermfg=8
+hi WildMenu ctermbg=255 ctermfg=NONE
 hi diffAdded ctermfg=150
 hi diffRemoved ctermfg=203
 hi ALEErrorSign ctermbg=235 ctermfg=203
@@ -100,8 +100,8 @@ hi GitGutterChange ctermbg=235 ctermfg=109
 hi GitGutterChangeDelete ctermbg=235 ctermfg=109
 hi GitGutterDelete ctermbg=235 ctermfg=203
 hi gitmessengerEndOfBuffer ctermbg=235 ctermfg=239
-hi gitmessengerPopupNormal ctermbg=235 ctermfg=252
-hi Sneak ctermbg=140 ctermfg=8
+hi gitmessengerPopupNormal ctermbg=235 ctermfg=NONE
+hi Sneak ctermbg=140 ctermfg=NONE
 hi SneakScope ctermbg=236 ctermfg=242
 hi SpelunkerSpellBad cterm=underline ctermbg=NONE ctermfg=NONE
 hi SyntasticErrorSign ctermbg=235 ctermfg=203
