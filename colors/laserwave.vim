@@ -20,12 +20,12 @@ endif
 
 let g:colors_name = 'lacerwave'
 
-hi Normal ctermbg=8 ctermfg=252
+hi Normal ctermbg=NONE ctermfg=252
 hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE
 hi CursorColumn cterm=NONE ctermbg=235 ctermfg=NONE
 hi CursorLine cterm=NONE ctermbg=235 ctermfg=NONE
 hi Comment ctermfg=60
-hi Conceal ctermbg=8 ctermfg=242
+hi Conceal ctermbg=NONE ctermfg=242
 hi Constant ctermfg=140
 hi Cursor ctermbg=252 ctermfg=8
 hi CursorLineNr cterm=NONE ctermbg=237 ctermfg=253
@@ -35,9 +35,9 @@ hi DiffChange ctermbg=23 ctermfg=159
 hi DiffDelete cterm=NONE ctermbg=95 ctermfg=224
 hi DiffText cterm=NONE ctermbg=30 ctermfg=195
 hi Directory ctermfg=109
-hi Error ctermbg=8 ctermfg=203
-hi ErrorMsg ctermbg=8 ctermfg=203
-hi WarningMsg ctermbg=8 ctermfg=203
+hi Error ctermbg=NONE ctermfg=203
+hi ErrorMsg ctermbg=NONE ctermfg=203
+hi WarningMsg ctermbg=NONE ctermfg=203
 hi EndOfBuffer ctermfg=236
 hi NonText ctermfg=236
 hi Whitespace ctermfg=236
@@ -74,10 +74,10 @@ hi String ctermfg=110
 hi Structure ctermfg=38
 hi TabLine cterm=NONE ctermbg=233 ctermfg=238
 hi TabLineFill cterm=reverse ctermbg=238 ctermfg=233
-hi TabLineSel cterm=NONE ctermbg=8 ctermfg=252
+hi TabLineSel cterm=NONE ctermbg=NONE ctermfg=252
 hi TermCursorNC ctermbg=242 ctermfg=8
 hi Title ctermfg=206
-hi Todo ctermbg=8 ctermfg=150
+hi Todo ctermbg=NONE ctermfg=150
 hi Type ctermfg=134
 hi Underlined cterm=underline ctermfg=110 term=underline
 hi VertSplit cterm=NONE ctermbg=233 ctermfg=233
