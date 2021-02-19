@@ -81,8 +81,8 @@ hi Todo ctermbg=NONE ctermfg=2
 hi Type ctermfg=5
 hi Underlined cterm=underline ctermfg=110
 hi VertSplit cterm=NONE ctermbg=233 ctermfg=233
-hi Visual ctermbg=236 ctermfg=NONE
-hi VisualNOS ctermbg=236 ctermfg=NONE
+hi Visual ctermbg=0 ctermfg=NONE
+hi VisualNOS ctermbg=0 ctermfg=NONE
 hi WildMenu ctermbg=255 ctermfg=NONE
 hi diffAdded ctermfg=2
 hi diffRemoved ctermfg=9
