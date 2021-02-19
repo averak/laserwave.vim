@@ -4,6 +4,8 @@
 
 An clean 80's synthwave / outrun inspired theme for Vim.
 
+If you want to use this theme, you need to install laserwave theme with [Gogh](https://github.com/Mayccoll/Gogh).
+
 ![](./media/sample.png)
 
 ## Usage
