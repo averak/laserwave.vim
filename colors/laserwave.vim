@@ -27,7 +27,7 @@ hi CursorLine cterm=NONE ctermbg=235 ctermfg=NONE
 hi Comment ctermfg=7
 hi Conceal ctermbg=NONE ctermfg=7
 hi Constant ctermfg=5
-hi Cursor ctermbg=254 ctermfg=NONE
+hi Cursor ctermbg=251 ctermfg=NONE
 hi CursorLineNr cterm=NONE ctermbg=237 ctermfg=253
 hi Delimiter ctermfg=NONE
 hi DiffAdd ctermbg=29 ctermfg=158
