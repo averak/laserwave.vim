@@ -18,8 +18,6 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'laserwave'
-
 hi Normal ctermbg=234 ctermfg=254
 hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE
 hi CursorColumn cterm=NONE ctermbg=235 ctermfg=NONE
