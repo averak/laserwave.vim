@@ -227,7 +227,3 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMessage Normal
 hi! link typescriptNull Constant
 hi! link typescriptParens Normal
-
-if !has('nvim')
-  hi! link SpecialKey Whitespace
-endif
