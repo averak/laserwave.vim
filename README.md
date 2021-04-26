@@ -10,7 +10,7 @@ An clean 80's synthwave / outrun inspired theme for Vim.
 ## Usage
 
 1. Install this plugin
-2. run `:colorscheme laserwave`
+2. run `:colorscheme laserwave256`
 
 Put the following code in your vimrc.
 
@@ -19,12 +19,9 @@ Put the following code in your vimrc.
 call dein#add('averak/laserwave.vim')
 " use Vim-Plug
 Plug 'averak/laserwave.vim'
-
-" If you want to use 256 colors
-colorscheme laserwave256
-" If not
-set termguicolors
 ```
+
+If you have already installed laserwave from [Gogh](https://github.com/Mayccoll/Gogh), you can run `colorscheme laserwave`.
 
 ## References
 
@@ -32,4 +29,4 @@ set termguicolors
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/averak/laserwave.vim](https://github.com/averak/laserwave.vim).
+Bug reports and pull requests are welcome on GitHub.
