@@ -9,14 +9,9 @@
 " License:    MIT
 
 
-if !has('gui_running') && &t_Co < 256
-  finish
-endif
-
 hi clear
-if exists('syntax_on')
-  syntax reset
-endif
+if exists('syntax_on') | syntax reset | endif
+let g:colors_name = 'laserwave'
 
 hi Normal ctermbg=NONE ctermfg=NONE
 hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=#262626

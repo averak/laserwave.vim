@@ -14,9 +14,8 @@ if !has('gui_running') && &t_Co < 256
 endif
 
 hi clear
-if exists('syntax_on')
-  syntax reset
-endif
+if exists('syntax_on') | syntax reset | endif
+let g:colors_name = 'laserwave256'
 
 hi Normal ctermbg=234 ctermfg=254
 hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE
