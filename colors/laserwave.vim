@@ -107,6 +107,7 @@ hi SyntasticStyleErrorSign ctermbg=235 ctermfg=9 guibg=#262626 guifg=#FC2377
 hi SyntasticStyleWarningSign ctermbg=235 ctermfg=3 guibg=#262626 guifg=#FEAE87
 hi SyntasticWarningSign ctermbg=235 ctermfg=3 guibg=#262626 guifg=#FEAE87
 hi ZenSpace ctermbg=9 guibg=#FC2377
+hi CocFloating ctermfg=15
 
 hi! link TermCursor Cursor
 hi! link ToolbarButton TabLineSel
