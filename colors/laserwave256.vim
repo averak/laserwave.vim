@@ -107,6 +107,7 @@ hi SyntasticStyleErrorSign ctermbg=235 ctermfg=198
 hi SyntasticStyleWarningSign ctermbg=235 ctermfg=216
 hi SyntasticWarningSign ctermbg=235 ctermfg=216
 hi ZenSpace ctermbg=198
+hi CocFloating ctermfg=15
 
 hi! link TermCursor Cursor
 hi! link ToolbarButton TabLineSel
